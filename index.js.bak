@@ -1,0 +1,3 @@
+const { spawn } = require('child_process');
+
+spawn('bash', ['-c', 'cd sakura-botv6.9.5 && sh start.sh'], { stdio: 'inherit' });
